@@ -40,6 +40,8 @@ papers = {
   * Connected Papers: https://www.connectedpapers.com/search?q=animal%20re-identification  
 - Organize survey by methodologies, e.g., leveraging vision-language models, others.  
 - Suggested reference survey paper on human re-ID: https://arxiv.org/pdf/2001.04193
+""",            "Papers Diagram": """
+
 """
         },
         "reference": ""
@@ -577,7 +579,10 @@ def render_slide(slide_title, content):
     st.subheader(slide_title)
 
     if paper_choice == "CLIP (Radford et al., 2021)" and slide_title == "Zero-Shot Learning":
-        st.image(paper["image"], caption="CLIP Zero-Shot Learning Illustration", use_container_width=True)
+        st.image("zero-shot.png", caption="CLIP Zero-Shot Learning Illustration", use_container_width=True)
+
+    if paper_choice == "Internship Roadmap" and slide_title == "Papers Diagram":
+        st.image("Internship-Diagram.jpg", caption="Papers Roadmap Diagram", use_container_width=True)
 
     # Extract block LaTeX expressions \[ ... \]
     latex_blocks = re.findall(r"\\\[.*?\\\]", content, re.DOTALL)
