@@ -7,7 +7,7 @@ import re
 papers = {
     "Internship Roadmap": {
         "title": "Internship Roadmap and Schedule",
-        "authors": "Compiled Overview",
+        "authors": "Me",
         "slides": {
             "Aim Overview": """
 1. Understanding CLIP and Vision-Language Models  
