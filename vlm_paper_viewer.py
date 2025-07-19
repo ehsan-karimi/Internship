@@ -614,6 +614,15 @@ Consider classifying dog breeds:
             """
         },
         "reference": ""
+    },
+    "Survey Structure Overview": {
+        "title": "A Survey on Animal Re-Identification: Structure Diagram",
+        "authors": "Me",
+        "slides": {
+            "Structure Diagram": """
+"""
+        },
+        "reference": ""
     }
 
 }
@@ -641,6 +650,9 @@ def render_slide(slide_title, content):
 
     if paper_choice == "Internship Roadmap" and slide_title == "Papers Diagram":
         st.image("Internship-Diagram.jpg", caption="Papers Roadmap Diagram", use_container_width=True)
+
+    if paper_choice == "Survey Structure Overview" and slide_title == "Structure Diagram":
+        st.image("Structure-Diagram.png", caption="Survey Structure Diagram", use_container_width=True)
 
     # Extract block LaTeX expressions \[ ... \]
     latex_blocks = re.findall(r"\\\[.*?\\\]", content, re.DOTALL)
