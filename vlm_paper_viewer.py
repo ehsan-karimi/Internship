@@ -668,19 +668,23 @@ def render_slide(slide_title, content):
     if paper_choice == "Survey Beta" and slide_title == "Here we are":
         st.title("PDF Viewer")
 
-        # Path to your static PDF file
+        # Ensure file path is correct
         pdf_path = os.path.join(os.path.dirname(__file__), "Beta.pdf")
 
         if os.path.exists(pdf_path):
             with open(pdf_path, "rb") as f:
                 base64_pdf = base64.b64encode(f.read()).decode('utf-8')
 
+            # Embed PDF in iframe
             pdf_display = f"""
-                <iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="900px" type="application/pdf"></iframe>
+                <iframe 
+                    src="data:application/pdf;base64,{base64_pdf}" 
+                    width="100%" height="900px" type="application/pdf">
+                </iframe>
             """
             st.markdown(pdf_display, unsafe_allow_html=True)
         else:
-            st.error("PDF file not found. Make sure it's uploaded to your GitHub repo.")
+            st.error("❌ PDF file not found. Please check that 'my_file.pdf' is in the app folder.")
 
     # Extract block LaTeX expressions \[ ... \]
     latex_blocks = re.findall(r"\\\[.*?\\\]", content, re.DOTALL)
