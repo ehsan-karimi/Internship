@@ -1,4 +1,5 @@
 # Streamlit app for presenting VLM & ReID papers
+import base64
 
 import streamlit as st
 import re
@@ -623,6 +624,15 @@ Consider classifying dog breeds:
 """
         },
         "reference": ""
+    },
+    "Survey Beta": {
+        "title": "Just a Beta Version",
+        "authors": "Me",
+        "slides": {
+            "Here we are": """
+"""
+        },
+        "reference": ""
     }
 
 }
@@ -653,6 +663,26 @@ def render_slide(slide_title, content):
 
     if paper_choice == "Survey Structure Overview" and slide_title == "Structure Diagram":
         st.image("Structure-Diagram.png", caption="Survey Structure Diagram", use_container_width=True)
+
+    if paper_choice == "Survey Beta" and slide_title == "Here we are":
+        st.title("PDF Viewer")
+
+        # Upload or use local file
+        pdf_file = "Beta.pdf"  # Replace with your PDF filename
+
+        # Load and encode PDF file
+        with open(pdf_file, "rb") as f:
+            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+
+        # Embed PDF into an iframe
+        pdf_display = f"""
+            <iframe
+                src="data:application/pdf;base64,{base64_pdf}"
+                width="100%" height="1000px"
+                type="application/pdf">
+            </iframe>
+            """
+        st.markdown(pdf_display, unsafe_allow_html=True)
 
     # Extract block LaTeX expressions \[ ... \]
     latex_blocks = re.findall(r"\\\[.*?\\\]", content, re.DOTALL)
