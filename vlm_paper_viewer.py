@@ -5,6 +5,8 @@ import os
 import streamlit as st
 import re
 
+from PIL import Image
+
 # Paper data: title, authors, slides content, reference link
 papers = {
     "Internship Roadmap": {
@@ -666,25 +668,23 @@ def render_slide(slide_title, content):
         st.image("Structure-Diagram.png", caption="Survey Structure Diagram", use_container_width=True)
 
     if paper_choice == "Survey Beta" and slide_title == "Here we are":
-        st.title("PDF Viewer")
+        # Define the folder and load image filenames
+        image_folder = 'Images/'  # or use 'pages/' if in subfolder
 
-        def show_pdf(file_path):
-            with open(file_path, "rb") as f:
-                base64_pdf = base64.b64encode(f.read()).decode("utf-8")
-            pdf_display = f"""
-                <iframe 
-                    src="data:application/pdf;base64,{base64_pdf}" 
-                    width="100%" 
-                    height="900px" 
-                    style="border:none;">
-                </iframe>
-            """
-            st.markdown(pdf_display, unsafe_allow_html=True)
+        # Load images in order
+        image_files = sorted([
+            file for file in os.listdir(image_folder)
+            if file.endswith((".png", ".jpg", ".jpeg")) and file.startswith("A_Survey")
+        ])
 
-        try:
-            show_pdf("Beta.pdf")
-        except FileNotFoundError:
-            st.error("❌ Beta.pdf not found. Make sure it's in the same folder and pushed to GitHub.")
+        # Show page slider if images exist
+        if image_files:
+            page_number = st.slider("Select Page", 1, len(image_files), 1)
+            image_path = os.path.join(image_folder, image_files[page_number - 1])
+            image = Image.open(image_path)
+            st.image(image, use_container_width=True)
+        else:
+            st.warning("No page images found. Make sure your images are named like page1.jpg, page2.jpg, etc.")
 
     # Extract block LaTeX expressions \[ ... \]
     latex_blocks = re.findall(r"\\\[.*?\\\]", content, re.DOTALL)
