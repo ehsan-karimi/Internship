@@ -565,57 +565,57 @@ Consider classifying dog breeds:
         "authors": "Me",
         "slides": {
             "Core Animal Re-ID Papers (2020–2025)": """
-            | **#** | **Authors**                   | **Title**                                                                                   | **Venue**                   | **Year** | **Venue Quality** |
-            |------|------------------------------|---------------------------------------------------------------------------------------------|-----------------------------|----------|-------------------|
-            | 1    | Alahi et al.                | [An Open-Source General Purpose Machine Learning Framework for Individual Animal Re-Identification Using Few-Shot Learning](https://openaccess.thecvf.com/content/CVPR2024W/WILD/papers/Alahi_OpenSource_Framework_for_FewShot_Animal_ReID_CVPRW_2024_paper.pdf) | CVPR Workshops              | 2024     | Top-Tier Workshop  |
-            | 2    | Zhang et al.               | [Species-Agnostic Patterned Animal Re-Identification by Aggregating Deep Local Features](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Species-Agnostic_Patterned_Animal_Re-Identification_by_Aggregating_Deep_Local_Features_CVPR_2024_paper.html) | CVPR                        | 2024     | Top-Tier Conference|
-            | 3    | Xu et al.                  | [Do the Best of All Together: Hierarchical Spatial-Frequency Fusion Transformers for Animal Re-Identification](https://ieeexplore.ieee.org/document/9991234) | IEEE TIP                    | 2024     | Top-Tier Journal   |
-            | 4    | Andersson et al.           | [Unsupervised Pelage Pattern Unwrapping for Animal Re-Identification](https://ieeexplore.ieee.org/document/9988776) | IEEE TPAMI                  | 2024     | Top-Tier Journal   |
-            | 5    | Jiao et al.                | [Toward Re-Identifying Any Animal in the Wild](https://papers.nips.cc/paper_files/paper/2023/hash/abcdef123456.pdf) | NeurIPS                     | 2023     | Top-Tier Conference|
-            | 6    | Li et al.                  | [Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](https://openaccess.thecvf.com/content/ECCV2024/html/Li_Adaptive_High-Frequency_Transformer_for_Diverse_Wildlife_Re-Identification_ECCV_2024_paper.html) | ECCV                        | 2024     | Top-Tier Conference|
-            | 7    | Bhattacharya et al.        | [Combining Feature Aggregation and Geometric Similarity for Re-Identification of Patterned Animals](https://doi.org/10.1016/j.patcog.2023.109876) | Pattern Recognition         | 2023     | Top-Tier Journal   |
-            | 8    | Frühner & Tapken           | [From Persons to Animals: Transferring Person Re-Identification Methods to a Multi-Species Animal Domain](https://csrn2024.org/papers/3456) | CSRN                        | 2024     | Emerging Conf.     |
-            | 9    | Wang & Ren                 | [ReDeformTR: Wildlife Re-Identification Based on Lightweight Deformable Transformer](https://doi.org/10.1016/j.neucom.2024.234567) | Neurocomputing              | 2024     | Strong Journal     |
-            | 10   | Feng et al.                | [Adaptive Feature Fusion Network for Amur Tiger Re-ID](https://doi.org/10.1016/j.cviu.2023.103456) | CVIU                        | 2023     | Strong Journal     |
-            | 11   | Ito & Nishida              | [Towards Multi-Species Animal Re-Identification](https://ieeexplore.ieee.org/document/9876543) | IEEE Access                 | 2022     | Mid-Tier Journal   |
-            | 12   | Allen et al.               | [Multispecies Animal Re-ID Using a Large Community-Curated Dataset](https://example.com) | Ecological Informatics      | 2023     | Mid-Tier Journal   |
-            | 13   | Kumar et al.               | [Similarity Learning Networks – Beyond the Capabilities of a Human Observer](https://example.com) | Ecological Informatics      | 2021     | Mid-Tier Journal   |
-            | 14   | Green et al.               | [Similarity Learning Networks for Animal Individual Re-Identification: An Ecological Perspective](https://example.com) | Machine Learning in Ecology | 2021     | Mid-Tier Journal   |
-            | 15   | Rao et al.                 | [WildlifeDatasets: An Open-Source Toolkit for Animal Re-Identification](https://doi.org/10.1016/j.patrec.2024.109457) | Pattern Recognition Letters | 2024     | Strong Journal     |
-            | 16   | Li et al.                  | [WildlifeReID-10k: Wildlife Re-Identification Dataset with 10k Individual Animals](https://openaccess.thecvf.com/content/CVPR2023W/html/Li_WildlifeReID-10k_CVPRW_2023_paper.html) | CVPR Workshops              | 2023     | Top-Tier Workshop  |
-            | 17   | Doshi et al.               | [SeaTurtleID2022: A Long-Span Dataset for Reliable Sea Turtle Re-Identification](https://doi.org/10.1016/j.ecolmodel.2023.110223) | Ecological Modelling        | 2023     | Mid-Tier Journal   |
-            | 18   | Laine et al.               | [SealID: Saimaa Ringed Seal Re-Identification Dataset and Methods](https://www.mdpi.com/1424-8220/22/4/1234) | Sensors                     | 2022     | Mid-Tier Journal   |
-            | 19   | Christiansen et al.        | [Zebrafish Re-Identification Using Metric Learning](https://ieeexplore.ieee.org/document/9871234) | ICPR                        | 2022     | Top-Tier Conference|
-            | 20   | Smith et al.               | [A Benchmark Database for Animal Re-Identification and Tracking](https://cv4wildlife.org/benchmark2024.html) | CV4Wildlife Workshop        | 2024     | Specialized Venue  |
-            | 21   | Singh et al.               | [Animal Re-Identification Algorithm for Posture Diversity](https://openaccess.thecvf.com/content/WACV2023/html/Singh_Animal_Re-Identification_Algorithm_for_Posture_Diversity_WACV_2023_paper.html) | WACV                        | 2023     | Top-Tier Conference|
-            | 22   | Zhao et al.                | [Understanding the Impact of Training Set Size on Animal Re-identification](https://arxiv.org/abs/2402.00001) | Computers in Biology & Med. | 2024     | Strong Journal     |
-            | 23   | Lee et al.                 | [Animal Re-identification Using Restricted Set Classification](https://doi.org/10.1016/j.eswa.2023.123456) | Expert Systems with Apps.   | 2023     | Strong Journal     |
-            | 24   | Wang et al.                | [A Serial Multi‑Scale Feature Fusion and Enhancement Network for Amur Tiger Re‑Identification](https://doi.org/10.1016/j.neucom.2024.103456) | Neurocomputing              | 2024     | Strong Journal     |
-            | 25   | Yang et al.                | [Comparing Class-Aware and Pairwise Loss Functions for Deep Metric Learning in Wildlife Re-Identification](https://openaccess.thecvf.com/content/WACV2022/html/Yang_Comparing_Loss_Functions_Wildlife_ReID_WACV_2022_paper.html) | WACV                        | 2022     | Top-Tier Conference|
-            | 26   | Jensen et al.              | [Animal Re-identification in Video Through Track Clustering](https://openaccess.thecvf.com/content/WACV2021/html/Jensen_Animal_Re-ID_Track_Clustering_WACV_2021_paper.html) | WACV                        | 2021     | Top-Tier Conference|
-            | 27   | Mahmoudi et al.            | [Computer Vision Based Knowledge Distillation Model for Animal Classification and Re-Identification Using Siamese Neural Network](https://ieeexplore.ieee.org/document/9812345) | IEEE Access                 | 2023     | Mid-Tier Journal   |
-            | 28   | Chen et al.                | [Animal Re-Identification from Video](https://link.springer.com/article/10.1007/s11042-023-15728-w) | Multimedia Tools and Apps.  | 2023     | Mid-Tier Journal   |
-            | 29   | Li et al.                  | [Re-Identification of Patterned Animals by Multi-Image Feature Aggregation and Geometric Similarity](https://doi.org/10.1016/j.patcog.2023.110000) | Pattern Recognition         | 2023     | Top-Tier Journal   |
-            | 30   | Huang et al.               | [YakRe-ID-103: Horn-Based Yak Re-Identification](https://ieeexplore.ieee.org/document/9990001) | ICIP                        | 2023     | Top-Tier Conference|
-            | 31   | Wang et al.                | [Addressing the Elephant in the Room: Robust Animal Re-Identification with Unsupervised Part-Based Feature Alignment](https://openaccess.thecvf.com/content/WACV2024/html/Wang_Elephant_Part_Alignment_ReID_WACV_2024_paper.html) | WACV                        | 2024     | Top-Tier Conference|
+            | **#** | **Authors**                   | **Title**                                                                                   | 
+            |------|------------------------------|---------------------------------------------------------------------------------------------|
+            | 1    | Wahltinez & Wahltinez        | [An Open-Source General Purpose Machine Learning Framework for Individual Animal Re-Identification Using Few-Shot Learning](https://onlinelibrary.wiley.com/doi/10.1111/2041-210X.14278) |
+            | 2    | Nepovinnykh et al.           | [Species-Agnostic Patterned Animal Re-Identification by Aggregating Deep Local Features](https://doi.org/10.1007/s11263-024-02071-1) |
+            | 3    | Zheng & Wang                 | [Do the Best of All Together: Hierarchical Spatial-Frequency Fusion Transformers for Animal Re-Identification](https://doi.org/10.1016/j.inffus.2024.102612) |
+            | 4    | Jiao et al.                 | [Toward Re-Identifying Any Animal in the Wild](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) |
+            | 5    | Li, Chen & Ye               | [Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](https://arxiv.org/abs/2410.06977) |
+            | 6    | Immonen et al.              | [Combining Feature Aggregation and Geometric Similarity for Re-Identification of Patterned Animals](https://arxiv.org/abs/2308.06335) |
+            | 7    | Frühner & Tapken            | [From Persons to Animals: Transferring Person Re-Identification Methods to a Multi-Species Animal Domain](https://www.researchgate.net/publication/382958274_From_Persons_to_Animals_Transferring_Person_Re-Identification_Methods_to_a_Multi-Species_Animal_Domain) |
+            | 8    | Li et al.                   | [ReDeformTR: Wildlife Re-Identification Based on Lightweight Deformable Transformer](https://www.researchgate.net/publication/382812509_ReDeformTR_Wildlife_Re-identification_based_on_Light-weight_Deformable_Transformer_with_Multi-image_Feature_Fusion) |
+            | 9   | Ito & Nishida               | [Towards Multi-Species Animal Re-Identification](https://www.researchgate.net/publication/382479716_Towards_Multi-Species_Animal_Re-Identification?utm_source) |
+            | 10   | Schneider et al.            | [Similarity Learning Networks – Beyond the Capabilities of a Human Observer](https://arxiv.org/abs/1902.09324) | 
+            | 11   | Čermák et al.               | [WildlifeDatasets: An Open-Source Toolkit for Animal Re-Identification](https://openaccess.thecvf.com/content/WACV2024/papers/Cermak_WildlifeDatasets_An_Open-Source_Toolkit_for_Animal_Re-Identification_WACV_2024_paper.pdf) | 
+            | 12   | Adam et al.                 | [SeaTurtleID2022: A Long-Span Dataset for Reliable Sea Turtle Re-Identification](https://arxiv.org/abs/2311.05524) | 
+            | 13   | Immonen et al.              | [SealID: Saimaa Ringed Seal Re-Identification Dataset and Methods](https://www.mdpi.com/1424-8220/22/19/7602) | 
+            | 14   | Christiansen et al.         | [Zebrafish Re-Identification Using Metric Learning](https://openaccess.thecvf.com/content_WACVW_2020/papers/w2/Haurum_Re-Identification_of_Zebrafish_using_Metric_Learning_WACVW_2020_paper.pdf?utm_source) | 
+            | 15   | Smith et al.                | [A Benchmark Database for Animal Re-Identification and Tracking](https://research.bangor.ac.uk/en/publications/a-benchmark-database-for-animal-re-identification-and-tracking) | 
+            | 16   | He et al.                   | [Animal Re-Identification Algorithm for Posture Diversity](https://openreview.net/forum?id=mEOxjNDVXv) | 
+            | 17   | Nepovinnykh et al.          | [NORPPA: NOvel Ringed Seal Re-Identification by Pelage Pattern Aggregation](https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/papers/Nepovinnykh_NORPPA_NOvel_Ringed_Seal_Re-Identification_by_Pelage_Pattern_Aggregation_WACVW_2024_paper.pdf) | 
+            | 18   | Jensen et al.               | [Animal Re-identification in Video Through Track Clustering](https://link.springer.com/article/10.1007/s10044-025-01497-8) | Multimedia Tools and Apps.  | 2025     | Top-Tier Journal   |
+            | 19   | Mahmoudi et al.             | [Computer Vision Based Knowledge Distillation Model for Animal Classification and Re-Identification Using Siamese Neural Network](https://www.researchgate.net/publication/366924298_Computer_vision_based_knowledge_distillation_model_for_animal_classification_and_re-identification_using_Siamese_Neural_Network) |
+            | 20   | Chen et al.                 | [Animal Re-Identification from Video](https://portalcienciaytecnologia.jcyl.es/documentos/668fc412b9e7c03b01bd3c33) | 
+            | 21   | Xu et al.                   | [A Serial Multi‑Scale Feature Fusion and Enhancement Network for Amur Tiger Re‑Identification](https://doi.org/10.3390/ani14071106) | 
+            | 22   | Yang et al.                 | [Comparing Class-Aware and Pairwise Loss Functions for Deep Metric Learning in Wildlife Re-Identification](https://www.mdpi.com/1424-8220/21/18/6109) |
+            | 23   | Li et al.                   | [Re-Identification of Patterned Animals by Multi-Image Feature Aggregation and Geometric Similarity](https://doi.org/10.1049/cvi2.12337) | 
+            | 24   | Huang et al.                | [YakRe-ID-103: Horn-Based Yak Re-Identification](http://scubrl.org/files/picture/20230302/177/1677742903616.pdf) | 
+            | 25   | Xu et al.                   | [Adaptive Feature Fusion Network for Amur Tiger Re-ID](https://link.springer.com/chapter/10.1007/978-3-030-63426-1_11) | 
+            | 26   | Wang et al.                 | [Animal Re-identification Using Restricted Set Classification](https://www.sciencedirect.com/science/article/abs/pii/S1574954121000169) | 
+            | 27   | Andersson et al.         | [Similarity Learning Networks for Animal Individual Re-Identification: An Ecological Perspective](https://link.springer.com/article/10.1007/s42991-021-00215-1) | 
+            | 28   | Garrido-Labrador et al.  | [An Experiment on Animal Re-Identification from Video](https://www.sciencedirect.com/science/article/abs/pii/S1574954123000237)                                              | 
+            | 29   | Bhattacharya et al.      | [A Novel Approach to Lion Re-Identification Using Vision Transformers](https://link.springer.com/chapter/10.1007/978-3-031-78255-8_16)         | 
+            | 30   | Doshi et al.             | [Learning Landmark Guided Embeddings for Animal Re-Identification](https://www.researchgate.net/publication/338500188)                        | 
             """
 
             ,
             "Foundational Computer Vision Papers": """
-            | **#** | **Authors**               | **Title**                                                                                                                 | **Venue**       | **Year** |
-            |------|---------------------------|---------------------------------------------------------------------------------------------------------------------------|-----------------|----------|
-            | 1    | He et al.                 | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)                                          | CVPR            | 2016     |
-            | 2    | Dosovitskiy et al.        | [An Image is Worth 16x16 Words: Vision Transformers](https://arxiv.org/abs/2010.11929)                                   | ICLR            | 2021     |
-            | 3    | Radford et al.            | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)                | ICML            | 2021     |
-            | 4    | Zhou et al.               | [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134)                                        | CVPR            | 2022     |
-            | 5    | Zhang et al.              | [CLIP-Adapter: Better Vision-Language Models by Feature Adaptation](https://arxiv.org/abs/2110.04544)                    | NeurIPS         | 2021     |
-            | 6    | He et al.                 | [TransReID: Transformer-based Person Re-Identification](https://arxiv.org/abs/2102.04378)                                | ICCV            | 2021     |
-            | 7    | Zheng et al.              | [CLIP-SCGI: Synthesized Caption-Guided Image Re-Identification](https://arxiv.org/abs/2410.09382)                        | AAAI            | 2023     |
-            | 8    | Zhai et al.               | [Multi-Prompts Learning with Cross-Modal Alignment for Attribute-based Person Re-Identification](https://arxiv.org/abs/2312.16797) | AAAI            | 2022     |
-            | 9    | Li et al.                 | [CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification Without Concrete Text Labels](https://arxiv.org/abs/2211.13977) | AAAI            | 2023     |
-            | 10   | Carion et al.             | [End-to-End Object Detection with Transformers (DETR)](https://arxiv.org/abs/2005.12872)                                 | ECCV            | 2020     |
-            | 11   | Wang et al.               | [Learning Robust Visual-Semantic Embeddings](https://arxiv.org/abs/2103.14176)                                           | CVPR            | 2021     |
+            | **#** | **Authors**                | **Title**                                                                                           | 
+            |------|----------------------------|-----------------------------------------------------------------------------------------------------|
+            | 1    | He, Zhang, Ren & Sun       | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)                     |
+            | 2    | Dosovitskiy et al.         | [An Image is Worth 16×16 Words: Vision Transformers](https://arxiv.org/abs/2010.11929)              | 
+            | 3    | Radford et al.             | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | 
+            | 4    | Zhou et al.                | [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134)                    | 
+            | 5    | Zhang et al.               | [CLIP-Adapter: Better Vision-Language Models by Feature Adaptation](https://arxiv.org/abs/2110.04544) | 
+            | 6    | He et al.                  | [TransReID: Transformer-based Person Re-Identification](https://arxiv.org/abs/2102.04378)            | 
+            | 7    | Han et al.                 | [CLIP-SCGI: Synthesized Caption-Guided Inversion for Person Re-Identification](https://arxiv.org/abs/2410.09382) | 
+            | 8    | Zhai et al.                | [Multi-Prompts Learning with Cross-Modal Alignment for Attribute-based Person Re-Identification](https://arxiv.org/abs/2312.16797) | 
+            | 9    | Li et al.                  | [CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification Without Concrete Text Labels](https://arxiv.org/abs/2211.13977) | 
+            | 10   | Carion et al.              | [End-to-End Object Detection with Transformers (DETR)](https://arxiv.org/abs/2005.12872)              | 
+            | 11   | Tsai, Huang & Salakhutdinov| [Learning Robust Visual-Semantic Embeddings](https://arxiv.org/abs/1703.05908)                        | 
             """
+
         },
         "reference": ""
     },
