@@ -565,55 +565,67 @@ Consider classifying dog breeds:
         "authors": "Me",
         "slides": {
             "Core Animal Re-ID Papers (2020–2025)": """
-            | **#** | **Authors**                   | **Title**                                                                                   | 
-            |------|------------------------------|---------------------------------------------------------------------------------------------|
-            | 1    | Wahltinez & Wahltinez        | [An Open-Source General Purpose Machine Learning Framework for Individual Animal Re-Identification Using Few-Shot Learning](https://onlinelibrary.wiley.com/doi/10.1111/2041-210X.14278) |
-            | 2    | Nepovinnykh et al.           | [Species-Agnostic Patterned Animal Re-Identification by Aggregating Deep Local Features](https://doi.org/10.1007/s11263-024-02071-1) |
-            | 3    | Zheng & Wang                 | [Do the Best of All Together: Hierarchical Spatial-Frequency Fusion Transformers for Animal Re-Identification](https://doi.org/10.1016/j.inffus.2024.102612) |
-            | 4    | Jiao et al.                 | [Toward Re-Identifying Any Animal in the Wild](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html) |
-            | 5    | Li, Chen & Ye               | [Adaptive High-Frequency Transformer for Diverse Wildlife Re-Identification](https://arxiv.org/abs/2410.06977) |
-            | 6    | Immonen et al.              | [Combining Feature Aggregation and Geometric Similarity for Re-Identification of Patterned Animals](https://arxiv.org/abs/2308.06335) |
-            | 7    | Frühner & Tapken            | [From Persons to Animals: Transferring Person Re-Identification Methods to a Multi-Species Animal Domain](https://www.researchgate.net/publication/382958274_From_Persons_to_Animals_Transferring_Person_Re-Identification_Methods_to_a_Multi-Species_Animal_Domain) |
-            | 8    | Li et al.                   | [ReDeformTR: Wildlife Re-Identification Based on Lightweight Deformable Transformer](https://www.researchgate.net/publication/382812509_ReDeformTR_Wildlife_Re-identification_based_on_Light-weight_Deformable_Transformer_with_Multi-image_Feature_Fusion) |
-            | 9   | Ito & Nishida               | [Towards Multi-Species Animal Re-Identification](https://www.researchgate.net/publication/382479716_Towards_Multi-Species_Animal_Re-Identification?utm_source) |
-            | 10   | Schneider et al.            | [Similarity Learning Networks – Beyond the Capabilities of a Human Observer](https://arxiv.org/abs/1902.09324) | 
-            | 11   | Čermák et al.               | [WildlifeDatasets: An Open-Source Toolkit for Animal Re-Identification](https://openaccess.thecvf.com/content/WACV2024/papers/Cermak_WildlifeDatasets_An_Open-Source_Toolkit_for_Animal_Re-Identification_WACV_2024_paper.pdf) | 
-            | 12   | Adam et al.                 | [SeaTurtleID2022: A Long-Span Dataset for Reliable Sea Turtle Re-Identification](https://arxiv.org/abs/2311.05524) | 
-            | 13   | Immonen et al.              | [SealID: Saimaa Ringed Seal Re-Identification Dataset and Methods](https://www.mdpi.com/1424-8220/22/19/7602) | 
-            | 14   | Christiansen et al.         | [Zebrafish Re-Identification Using Metric Learning](https://openaccess.thecvf.com/content_WACVW_2020/papers/w2/Haurum_Re-Identification_of_Zebrafish_using_Metric_Learning_WACVW_2020_paper.pdf?utm_source) | 
-            | 15   | Smith et al.                | [A Benchmark Database for Animal Re-Identification and Tracking](https://research.bangor.ac.uk/en/publications/a-benchmark-database-for-animal-re-identification-and-tracking) | 
-            | 16   | He et al.                   | [Animal Re-Identification Algorithm for Posture Diversity](https://openreview.net/forum?id=mEOxjNDVXv) | 
-            | 17   | Nepovinnykh et al.          | [NORPPA: NOvel Ringed Seal Re-Identification by Pelage Pattern Aggregation](https://openaccess.thecvf.com/content/WACV2024W/CV4Smalls/papers/Nepovinnykh_NORPPA_NOvel_Ringed_Seal_Re-Identification_by_Pelage_Pattern_Aggregation_WACVW_2024_paper.pdf) | 
-            | 18   | Jensen et al.               | [Animal Re-identification in Video Through Track Clustering](https://link.springer.com/article/10.1007/s10044-025-01497-8) | Multimedia Tools and Apps.  | 2025     | Top-Tier Journal   |
-            | 19   | Mahmoudi et al.             | [Computer Vision Based Knowledge Distillation Model for Animal Classification and Re-Identification Using Siamese Neural Network](https://www.researchgate.net/publication/366924298_Computer_vision_based_knowledge_distillation_model_for_animal_classification_and_re-identification_using_Siamese_Neural_Network) |
-            | 20   | Chen et al.                 | [Animal Re-Identification from Video](https://portalcienciaytecnologia.jcyl.es/documentos/668fc412b9e7c03b01bd3c33) | 
-            | 21   | Xu et al.                   | [A Serial Multi‑Scale Feature Fusion and Enhancement Network for Amur Tiger Re‑Identification](https://doi.org/10.3390/ani14071106) | 
-            | 22   | Yang et al.                 | [Comparing Class-Aware and Pairwise Loss Functions for Deep Metric Learning in Wildlife Re-Identification](https://www.mdpi.com/1424-8220/21/18/6109) |
-            | 23   | Li et al.                   | [Re-Identification of Patterned Animals by Multi-Image Feature Aggregation and Geometric Similarity](https://doi.org/10.1049/cvi2.12337) | 
-            | 24   | Huang et al.                | [YakRe-ID-103: Horn-Based Yak Re-Identification](http://scubrl.org/files/picture/20230302/177/1677742903616.pdf) | 
-            | 25   | Xu et al.                   | [Adaptive Feature Fusion Network for Amur Tiger Re-ID](https://link.springer.com/chapter/10.1007/978-3-030-63426-1_11) | 
-            | 26   | Wang et al.                 | [Animal Re-identification Using Restricted Set Classification](https://www.sciencedirect.com/science/article/abs/pii/S1574954121000169) | 
-            | 27   | Andersson et al.         | [Similarity Learning Networks for Animal Individual Re-Identification: An Ecological Perspective](https://link.springer.com/article/10.1007/s42991-021-00215-1) | 
-            | 28   | Garrido-Labrador et al.  | [An Experiment on Animal Re-Identification from Video](https://www.sciencedirect.com/science/article/abs/pii/S1574954123000237)                                              | 
-            | 29   | Bhattacharya et al.      | [A Novel Approach to Lion Re-Identification Using Vision Transformers](https://link.springer.com/chapter/10.1007/978-3-031-78255-8_16)         | 
-            | 30   | Doshi et al.             | [Learning Landmark Guided Embeddings for Animal Re-Identification](https://www.researchgate.net/publication/338500188)                        | 
-            """
+           | # | Authors | Title | Source | Year | Category |
+|---|---------|-------|--------|------|----------|
+| 1 | Wahltinez & Wahltinez | An Open-Source General Purpose Machine Learning Framework for Individual Animal Re-Identification Using Few-Shot Learning | Methods in Ecology and Evolution, 2024 | 2024 | Method |
+| 2 | Nepovinnykh et al. | Species-Agnostic Patterned Animal Re-Identification by Aggregating Deep Local Features | IJCV, 2024 | 2024 | Method |
+| 3 | Zheng & Wang | Do the Best of All Together: Hierarchical Spatial-Frequency Fusion Transformers for Animal Re-Identification | Information Fusion, 2025 | 2025 | Method |
+| 4 | Frühner & Tapken | From Persons to Animals: Transferring Person Re-Identification Methods to a Multi-Species Animal Domain | ACM Int. Conf. Proc. Series | 2024 | Method |
+| 5 | Li et al. | ReDeformTR: Wildlife Re-Identification Based on Lightweight Deformable Transformer | IEEE Access, 2024 | 2024 | Method |
+| 6 | Schneider et al. | Similarity Learning Networks for Animal Individual Re-Identification-Beyond the Capabilities of a Human Observer | WACVW, 2020 | 2020 | Method |
+| 7 | Čermák et al. | WildlifeDatasets: An Open-Source Toolkit for Animal Re-Identification | WACV, 2024 | 2024 | Dataset |
+| 8 | Adam et al. | SeaTurtleID2022: A Long-Span Dataset for Reliable Sea Turtle Re-Identification | WACV, 2024 | 2024 | Dataset |
+| 9 | Immonen et al. | SealID: Saimaa Ringed Seal Re-Identification Dataset and Methods | Sensors, 2022 | 2022 | Dataset |
+| 10 | Smith et al. | A Benchmark Database for Animal Re-Identification and Tracking | IPAS, 2022 | 2022 | Dataset |
+| 11 | He et al. | Animal Re-Identification Algorithm for Posture Diversity | ICASSP, 2023 | 2023 | Method |
+| 12 | Nepovinnykh et al. | NORPPA: NOvel Ringed Seal Re-Identification by Pelage Pattern Aggregation | WACVW, 2024 | 2024 | Method |
+| 13 | Jensen et al. | Animal Re-identification in Video Through Track Clustering | Multimedia Tools and Applications, 2025 | 2025 | Method |
+| 14 | Mahmoudi et al. | Computer Vision Based Knowledge Distillation Model for Animal Classification and Re-Identification Using Siamese Neural Network | JIFS, 2023 | 2023 | Method |
+| 15 | Xu et al. | A Serial Multi‑Scale Feature Fusion and Enhancement Network for Amur Tiger Re‑Identification | Animals, 2024 | 2024 | Method |
+| 16 | Yang et al. | Comparing Class-Aware and Pairwise Loss Functions for Deep Metric Learning in Wildlife Re-Identification | Sensors, 2021 | 2021 | Method |
+| 17 | Li et al. | Re-Identification of Patterned Animals by Multi-Image Feature Aggregation and Geometric Similarity | IET Computer Vision, 2025 | 2025 | Method |
+| 18 | Huang et al. | YakRe-ID-103: Horn-Based Yak Re-Identification | IJCB, 2021 | 2021 | Dataset |
+| 19 | Xu et al. | A Serial Multi-Scale Feature Fusion and Enhancement Network for Amur Tiger Re-Identification | Animals | 2024 | Method |
+| 20 | Wang et al. | Animal Re-identification Using Restricted Set Classification | Expert Systems with Applications, 2023 | 2023 | Method |
+| 21 | Andersson et al. | Similarity Learning Networks for Animal Individual Re-Identification: An Ecological Perspective | Mammalian Biology, 2022 | 2022 | Survey/Review |
+| 22 | Garrido-Labrador et al. | An Experiment on Animal Re-Identification from Video | Information Fusion, 2024 | 2024 | Method |
+| 23 | Bhattacharya et al. | A Novel Approach to Lion Re-Identification Using Vision Transformers | Communications in Computer and Information Science, 2025 | 2025 | Method |
+| 24 | Lamping, C., Kootstra, G., Derks, M. | Transformer-based similarity learning for re-identification of chickens | Smart Agricultural Technology, 2025 | 2025 | Method |
+| 25 | Perneel, M., Adriaens, I., Verwaeren, J., Aernouts, B. | Dynamic Multi-Behaviour, Orientation-Invariant Re-Identification of Holstein-Friesian Cattle | Sensors, 2025 | 2025 | Method |
+| 26 | Odo, A., McLaughlin, N., Kyriazakis, I. | Re-identification for long-term tracking and management of health and welfare challenges in pigs | Biosystems Engineering, 2025 | 2025 | Application |
+| 27 | Bai, X., Islam, T., Bin Azhar, M.A.H. | Transformer-based Models for Enhanced Amur Tiger Re-Identification | WSAIMI, 2024 | 2024 | Method |
+| 28 | Kuncheva, L.I., Garrido-Labrador, J.L., Ramos-Pérez, I., Hennessey, S.L., Rodríguez, J.J. | Semi-supervised classification with pairwise constraints: A case study on animal identification from video | Information Fusion, 2024 | 2024 | Method |
+| 29 | Moosa, M., Cheikh, F.A., Beghdadi, A., Ullah, M. | Self-Supervised Animal Detection, Tracking & Re-Identification | IPTA, 2024 | 2024 | Method |
+| 30 | Nepovinnykh, E., Immonen, V., Eerola, T., Stewart, C.V., Kälviäinen, H. | Re-identification of patterned animals by multi-image feature aggregation and geometric similarity | IET Computer Vision, 2025 | 2025 | Method |
+| 31 | Zuerl, M., Dirauf, R., Kooferl, F., Fersen, L.V., Eskofer, B. | PolarBearVidID: A Video-Based Re-Identification Benchmark Dataset for Polar Bears | Animals, 2023 | 2023 | Dataset |
+| 32 | Ashok Kumar, L., Karthika Renuka, D., Saravana Kumar, S. | Computer vision based knowledge distillation model for animal classification and re-identification using Siamese Neural Network | JIFS, 2023 | 2023 | Method |
+| 33 | He, Z., Qian, J., Yan, D., Wang, C., Xin, Y. | Animal Re-Identification Algorithm for Posture Diversity | ICASSP, 2023 | 2023 | Method |
+| 34 | Jiao, B., Liu, L., Gao, L., Wang, P., Zhang, Y. | Toward Re-Identifying Any Animal | NeurIPS, 2023 | 2023 | Method |
+| 35 | Wang, M., Larsen, M.L.V., Liu, D., Rault, J.-L., Norton, T. | Towards re-identification for long-term tracking of group housed pigs | Biosystems Engineering, 2022 | 2022 | Application |
+| 36 | Schneider, S., Taylor, G.W., Kremer, S.C. | Similarity learning networks for animal individual re-identification: an ecological perspective | Mammalian Biology, 2022 | 2022 | Survey/Review |
+| 37 | Wang, L., Ding, R., Zhai, Y., Zheng, N., Hua, G. | Giant Panda Identification | TIP, 2021 | 2021 | Method |
+| 38 | Ravoor, P.C., T.s.b., S. | Deep Learning Methods for Multi-Species Animal Re-identification and Tracking a Survey | Computer Science Review, 2020 | 2020 | Survey/Review |
+| 39 | Li, S., Li, J., Tang, H., Qian, R., Lin, W. | ATRW: A Benchmark for Amur Tiger Re-identification in the Wild | ACM Multimedia, 2020 | 2020 | Dataset |
+| 40 | Cheng, X., Zhu, J., Zhang, N., Wang, Q., Zhao, Q. | Detection Features as Attention (Defat): A Keypoint-Free Approach to Amur Tiger Re-Identification | ICIP, 2020 | 2020 | Method |
+| 41 | Moskvyak, O., Maire, F., Dayoub, F., Baktashmotlagh, M. | Learning Landmark Guided Embeddings for Animal Re-identification | WACVW, 2020 | 2020 | Method |
+| 42 | Nepovinnykh, E., Eerola, T., Kalviainen, H. | Siamese Network Based Pelage Pattern Matching for Ringed Seal Re-identification | WACVW, 2020 | 2020 | Method |
+| 43 | Andrew, W., Greatwood, C., Burghardt, T. | Fusing Animal Biometrics with Autonomous Robotics: Drone-based Search and Individual ID of Friesian Cattle | WACVW, 2020 | 2020 | Application |
+| 44 | Yu, P., Burghardt, T., Dowsey, A.W., Campbell, N.W. | Holstein-Friesian re-identification using multiple cameras and self-supervision on a working farm | Computers and Electronics in Agriculture | 2025 | Method |
+| 45 | Williams, F.J., Hennessey, S.L., Kuncheva, L.I. | Animal re-identification in video through track clustering | Pattern Analysis and Applications | 2025 | Method |
+| 46 | Naik, H., Yang, J., Das, D., Rathore, A., Sridhar, V.H. | BuckTales: A multi-UAV dataset for multi-object tracking and re-identification of wild antelopes | NeurIPS | 2024 | Dataset/Method |
+| 47 | Wang, Y., Xu, X., Wang, Z., Hua, Z., Song, H. | ShuffleNet-Triplet: A lightweight RE-identification network for dairy cows in natural scenes | Computers and Electronics in Agriculture | 2023 | Method |
+| 48 | Borlinghaus, P., Tausch, F., Rettenberger, L. | A Purely Visual Re-ID Approach for Bumblebees (Bombus terrestris) | Smart Agricultural Technology | 2023 | Method |
+| 49 | Desai, B., Patel, A., Patel, V., Raval, M.S., Ghosal, R. | Identification of free-ranging mugger crocodiles by applying deep learning methods on UAV imagery | Ecological Informatics | 2022 | Method |
+| 50 | Nepovinnykh, E., Chelak, I., Lushpanov, A., Kälviäinen, H., Chirkova, O. | Matching individual Ladoga ringed seals across short-term image sequences | Mammalian Biology | 2022 | Method |
+| 51 | Miele, V., Dussert, G., Spataro, B., Allainé, D., Bonenfant, C. | Revisiting animal photo-identification using deep metric learning and network analysis | Methods in Ecology and Evolution | 2021 | Method |
+| 52 | Moskvyak, O., Maire, F., Dayoub, F., Armstrong, A.O., Baktashmotlagh, M. | Robust Re-identification of Manta Rays from Natural Markings by Learning Pose Invariant Embeddings | Dicta | 2021 | Method |
+| 53 | Chan, J., Carrión, H., Mégret, R., Agosto Rivera, J.L., Giray, T. | Honeybee Re-identification in Video: New Datasets and Impact of Self-supervision | International Journal of Computer Vision and Image Analysis | 2022 | Method/Dataset |
+| 54 | Chen X.; Yang T.; Mai K.; Liu C.; Xiong J.; Kuang Y.; Gao Y. | Holstein Cattle Face Re-Identification Unifying Global and Part Feature Deep Network with Attention Mechanism | Animals | 2022 | Method |
+| 55 | Schmidt J.E.; Mäkinen O.E.; Flou Nielsen S.G.; Johansen A.S.; Nasrollahi K.; Moeslund T.B. | Exploring Loss Functions for Optimising the Accuracy of Siamese Neural Networks in Re-Identification Applications | Proceedings of SPIE - The International Society for Optical Engineering | 2022 | Method |
+| 56 | Zhang J.; Zhao Q.; Liu T. | Feature-Aware Noise Contrastive Learning for Unsupervised Red Panda Re-Identification | Proceedings of the International Joint Conference on Neural Networks | 2024 | Method |
+| 57 | Zheng Z.; Zhao Y.; Li A.; Yu Q. | Wild Terrestrial Animal Re-Identification Based on an Improved Locally Aware Transformer with a Cross-Attention Mechanism | Animals | 2022 | Method |
+| 58 | Guo Q.; Sun Y.; Min L.; Putten A.; Knol E.F.; Visser B.; Rodenburg T.B.; Bolhuis J.E.; Bijma P.; de With P.H.N. | Video-based Detection and Tracking with Improved Re-Identification Association for Pigs and Laying Hens in Farms | Proceedings of the International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications | 2022 | Method |
 
-            ,
-            "Foundational Computer Vision Papers": """
-            | **#** | **Authors**                | **Title**                                                                                           | 
-            |------|----------------------------|-----------------------------------------------------------------------------------------------------|
-            | 1    | He, Zhang, Ren & Sun       | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)                     |
-            | 2    | Dosovitskiy et al.         | [An Image is Worth 16×16 Words: Vision Transformers](https://arxiv.org/abs/2010.11929)              | 
-            | 3    | Radford et al.             | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | 
-            | 4    | Zhou et al.                | [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134)                    | 
-            | 5    | Zhang et al.               | [CLIP-Adapter: Better Vision-Language Models by Feature Adaptation](https://arxiv.org/abs/2110.04544) | 
-            | 6    | He et al.                  | [TransReID: Transformer-based Person Re-Identification](https://arxiv.org/abs/2102.04378)            | 
-            | 7    | Han et al.                 | [CLIP-SCGI: Synthesized Caption-Guided Inversion for Person Re-Identification](https://arxiv.org/abs/2410.09382) | 
-            | 8    | Zhai et al.                | [Multi-Prompts Learning with Cross-Modal Alignment for Attribute-based Person Re-Identification](https://arxiv.org/abs/2312.16797) | 
-            | 9    | Li et al.                  | [CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification Without Concrete Text Labels](https://arxiv.org/abs/2211.13977) | 
-            | 10   | Carion et al.              | [End-to-End Object Detection with Transformers (DETR)](https://arxiv.org/abs/2005.12872)              | 
-            | 11   | Tsai, Huang & Salakhutdinov| [Learning Robust Visual-Semantic Embeddings](https://arxiv.org/abs/1703.05908)                        | 
             """
 
         },
